@@ -1,0 +1,17 @@
+{
+  "name": "shang-shi-allergen-protected",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "node scripts/build.js",
+    "obfuscate": "node scripts/obfuscate.js",
+    "start": "vercel dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.0",
+    "uglify-js": "^3.19.3"
+  }
+}
